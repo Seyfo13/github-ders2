@@ -1,0 +1,55 @@
+body{
+    background: url(./Group\ 7838.png);
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+.saitama{
+    float: left;
+    margin-left: 100px;
+    margin-top: 0px;
+ 
+}
+.Kakashi{
+    display: block;
+}
+.gojo{
+    float: left;
+    margin-left:400px ;
+    margin-top: 0px;
+}
+.yuji{
+    font-size: 70px;
+    color: aquamarine;
+    text-align: center;
+}
+.sukuna{
+    font-size: 20px;
+    color: white;
+    width: 50vw;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.NARUTO{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline dashed yellow;
+}
+i{
+    margin-left: 50px;
+    color: white;
+}
+@media only screen and (max-width:600px) {
+.Kakashi{
+    display: none;
+
+}
+.sukuna{
+    width: 40vw;
+}
+i{
+float: right;
+}
+}
